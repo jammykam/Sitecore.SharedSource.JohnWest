@@ -1,0 +1,87 @@
+----item----
+version: 1
+id: {BD7F87C0-0C9D-4802-A2DA-8F4230FEB4B0}
+database: master
+path: /sitecore/system/Settings/Rules/Indexing/Rebuilding/Rules/Master Database Indexes
+parent: {798D6CB2-814F-4EAD-A86C-6623DC7C6AA7}
+name: Master Database Indexes
+master: {00000000-0000-0000-0000-000000000000}
+template: {7EA3B101-2383-4A12-9431-C240D9EF3246}
+templatekey: Index Rebuilding Rule
+
+----version----
+language: en
+version: 1
+revision: d577d5be-25cb-4b6d-a72a-77b33b37a92d
+
+----field----
+field: {17D4DF1C-7515-4609-9CFC-A65C93179904}
+name: Name
+key: name
+content-length: 37
+
+rebuild master database indexes daily
+----field----
+field: {CABD5DEC-E0A9-4CC3-9CF4-FACB45890FED}
+name: Rule
+key: rule
+content-length: 809
+
+<ruleset>
+  <rule uid="{2B393123-0ADB-49D0-B8EB-98F8CA9C4787}">
+    <conditions>
+      <and uid="A1386D7993FB47DA96548A0BF63657D1">
+        <condition id="{CC3C284B-0BAE-425D-92C3-B7890F5B1CBE}" uid="735E470CDC0B445282052AC71EC73753" MatchIndexedDatabaseNameAgainst="master" />
+        <and uid="80069B9D3F4C422BBBF3D0EA2F1ED8FC">
+          <condition id="{35C49A07-B451-4DAF-9719-14E4547C0FAE}" uid="08F24DD23D1848C5AB92E5AAC58D439C" CompareLastUpdatedAgainstMinutes="60" />
+          <condition id="{B172EAC1-FEE9-4748-9AF4-FB95CC4AB899}" uid="399643D347534971A04D4006CD654AB5" StartMinute="0" EndMinute="60" />
+        </and>
+      </and>
+    </conditions>
+    <actions>
+      <action id="{2B51E152-E639-47B4-BC7C-D32757783F2E}" uid="0B04DC76F71C4AFB896BF0F1395CD48D" />
+    </actions>
+  </rule>
+</ruleset>
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 15
+
+20130406T173137
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+d577d5be-25cb-4b6d-a72a-77b33b37a92d
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 34
+
+20130411T134121:635012844811362558
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

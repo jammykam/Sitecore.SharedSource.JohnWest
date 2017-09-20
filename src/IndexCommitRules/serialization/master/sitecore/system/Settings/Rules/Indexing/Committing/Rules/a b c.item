@@ -1,0 +1,77 @@
+----item----
+version: 1
+id: {CD925225-12D5-401B-9535-150EB8FFAA73}
+database: master
+path: /sitecore/system/Settings/Rules/Indexing/Committing/Rules/a b c
+parent: {2AF41534-7F9E-4B0B-8F7F-29401AD4848B}
+name: a b c
+master: {00000000-0000-0000-0000-000000000000}
+template: {09E7D40B-0F2F-4327-A47A-AFB3E057E71D}
+templatekey: Index Committing Rule
+
+----version----
+language: en
+version: 1
+revision: c5d320cf-decb-43e1-bb26-ea86e2be6998
+
+----field----
+field: {CBAE25DF-E74C-47CB-A258-7D22D85E71F0}
+name: Rule
+key: rule
+content-length: 564
+
+<ruleset>
+  <rule uid="{F28CA8C9-6E2D-4B32-BDA9-1D0EF8C6064C}">
+    <conditions>
+      <or uid="6B572EE6175A472280295FE191DC48B5">
+        <condition id="{8E6DCF69-6DEF-43F1-8451-BB2B74370E5E}" uid="11EE54D5DA1C4145BAAB5C33FBCD18B1" Threshold="200" />
+        <condition id="{8E404275-DF44-4BCB-973B-2BC2ACB94896}" uid="7D861906A8AC4B0B91606F0F60F30CE0" Threshold="200" />
+      </or>
+    </conditions>
+    <actions>
+      <action id="{9F8CB08F-620F-4E0F-9DEA-A9DCF0F56AF8}" uid="68B37A19DAED4FB28E04E61F3CDC9793" />
+    </actions>
+  </rule>
+</ruleset>
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 15
+
+20130502T092851
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+c5d320cf-decb-43e1-bb26-ea86e2be6998
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 34
+
+20130516T145054:635043126547271007
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

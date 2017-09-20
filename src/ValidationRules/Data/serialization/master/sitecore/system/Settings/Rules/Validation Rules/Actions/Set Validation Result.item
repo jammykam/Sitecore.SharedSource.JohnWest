@@ -1,0 +1,194 @@
+----item----
+version: 1
+id: {E302C7B8-FE62-4226-92E1-EC0E949A191F}
+database: master
+path: /sitecore/system/Settings/Rules/Validation Rules/Actions/Set Validation Result
+parent: {E8E16E43-2D8B-4B90-A3D5-A3A1B85FB36B}
+name: Set Validation Result
+master: {00000000-0000-0000-0000-000000000000}
+template: {F90052A5-B4E6-4E6D-9812-1E1B88A6FCEA}
+templatekey: Action
+
+----field----
+field: {FF55D5A7-6D4B-4CD1-83E0-BAC268073F66}
+name: Type
+key: type
+content-length: 92
+
+Sitecore.Sharedsource.Rules.Actions.SetValidatorResult,Sitecore.Sharedsource.ValidationRules
+----version----
+language: de-DE
+version: 1
+revision: d7d6ab0b-e6a2-474c-a746-a1eae5e115a7
+
+----field----
+field: {EEB36A3B-40D9-4AF5-862A-DE257B84DCA3}
+name: Text
+key: text
+content-length: 114
+
+Stelle den Workflow Staus auf [workflowstateid,Tree,root={38A19F53-2733-4F55-ABAF-539F169E3EC5},specific state]ein
+----field----
+field: {B5E02AD9-D56F-4C41-A065-A133DB87BDEB}
+name: __Display name
+key: __display name
+content-length: 25
+
+Workflowstatus einstellen
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 34
+
+20120622T123105:634759650653393976
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+d7d6ab0b-e6a2-474c-a746-a1eae5e115a7
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 34
+
+20120622T123105:634759650653862768
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin
+----version----
+language: en
+version: 1
+revision: 34d7a378-7784-4423-b152-a3b7e0915041
+
+----field----
+field: {EEB36A3B-40D9-4AF5-862A-DE257B84DCA3}
+name: Text
+key: text
+content-length: 79
+
+set the validation result to [validatorresult,validatorresult,,specific result]
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 15
+
+20100308T101948
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+34d7a378-7784-4423-b152-a3b7e0915041
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 34
+
+20120911T161350:634829768302990661
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin
+----version----
+language: ja-JP
+version: 1
+revision: 9132bcc1-4926-4c30-8b3b-4fef74c0819e
+
+----field----
+field: {EEB36A3B-40D9-4AF5-862A-DE257B84DCA3}
+name: Text
+key: text
+content-length: 94
+
+ワークフロー状態を [workflowstateid,Tree,root={38A19F53-2733-4F55-ABAF-539F169E3EC5},特定のワークフロー状態] に設定する
+----field----
+field: {B5E02AD9-D56F-4C41-A065-A133DB87BDEB}
+name: __Display name
+key: __display name
+content-length: 11
+
+ワークフロー状態を設定
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 34
+
+20120622T125409:634759664493249491
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+9132bcc1-4926-4c30-8b3b-4fef74c0819e
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 34
+
+20120622T125409:634759664494030626
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

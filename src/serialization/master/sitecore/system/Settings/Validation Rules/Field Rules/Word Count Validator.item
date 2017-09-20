@@ -1,0 +1,72 @@
+----item----
+version: 1
+id: {732D6CA7-16F5-45F5-8B04-169C7788AFA7}
+database: master
+path: /sitecore/system/Settings/Validation Rules/Field Rules/Word Count Validator
+parent: {207B1F0D-FCF2-4F86-B270-A20FD012CEB8}
+name: Word Count Validator
+master: {00000000-0000-0000-0000-000000000000}
+template: {8F8E2549-C77F-4860-B83B-54FA31E2BEFA}
+templatekey: Validation Rule
+
+----field----
+field: {43A829D1-43DA-465C-B772-EBAA0D515E3E}
+name: Type
+key: type
+content-length: 95
+
+Sitecore.Sharedsource.Data.Validators.FieldValidators.WordCountValidator,Sitecore.Sharedsource 
+----field----
+field: {8F9D8603-2E34-4C5F-B0BB-F0D91EB956CA}
+name: Parameters
+key: parameters
+content-length: 25
+
+MaxWords=1000&MaxWarn=500
+----version----
+language: en
+version: 1
+revision: 0860ac3d-7ea2-4a66-9763-f6b9a986fdb6
+
+----field----
+field: {DA43C533-CBAE-43D0-9019-65B1E346F984}
+name: Title
+key: title
+content-length: 19
+
+Word File Drop Area
+----field----
+field: {58014183-26FE-4568-B19F-C26745824C32}
+name: Description
+key: description
+content-length: 40
+
+Field contains at most one Word document
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 15
+
+20140804T100552
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+0860ac3d-7ea2-4a66-9763-f6b9a986fdb6
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 34
+
+20140804T110622:635427471824031100
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

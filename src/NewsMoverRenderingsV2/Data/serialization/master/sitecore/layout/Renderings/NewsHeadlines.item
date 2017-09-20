@@ -1,0 +1,86 @@
+----item----
+version: 1
+id: {DAD2ED2C-8C54-4D3B-B0B2-A7FFBD5BD228}
+database: master
+path: /sitecore/layout/Renderings/NewsHeadlines
+parent: {32566F0E-7686-45F1-A12F-D7260BD78BC3}
+name: NewsHeadlines
+master: {00000000-0000-0000-0000-000000000000}
+template: {1DDE3F02-0BD7-4779-867A-DC578ADF91EA}
+templatekey: Webcontrol
+
+----field----
+field: {1F424EB0-6138-4BC4-93B0-BD45EC6B1CB2}
+name: Namespace
+key: namespace
+content-length: 40
+
+Sitecore.Sharedsource.Web.UI.WebControls
+----field----
+field: {B8979E80-7623-4B3A-BFD2-3F3F05883D58}
+name: Tag
+key: tag
+content-length: 13
+
+NewsHeadlines
+----field----
+field: {E2ABDEC6-83A6-4B68-97D1-B3CD79F10A8E}
+name: TagPrefix
+key: tagprefix
+content-length: 2
+
+ss
+----field----
+field: {C50B1F5B-26DA-476A-AAC6-9B734975971C}
+name: Assembly
+key: assembly
+content-length: 8
+
+assembly
+----version----
+language: en
+version: 1
+revision: 3c94fa47-c235-47bb-8767-a748473aa6e8
+
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 15
+
+20110727T143732
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+3c94fa47-c235-47bb-8767-a748473aa6e8
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 34
+
+20110816T145403:634491032434336493
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

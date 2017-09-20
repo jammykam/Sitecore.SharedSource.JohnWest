@@ -1,0 +1,65 @@
+----item----
+version: 1
+id: {28D5A776-5797-4FD3-AC76-0B3399BE6D94}
+database: master
+path: /sitecore/system/Settings/Validation Rules/Field Rules/Word Field Validator
+parent: {207B1F0D-FCF2-4F86-B270-A20FD012CEB8}
+name: Word Field Validator
+master: {00000000-0000-0000-0000-000000000000}
+template: {8F8E2549-C77F-4860-B83B-54FA31E2BEFA}
+templatekey: Validation Rule
+
+----field----
+field: {43A829D1-43DA-465C-B772-EBAA0D515E3E}
+name: Type
+key: type
+content-length: 95
+
+Sitecore.Sharedsource.Data.Validators.FieldValidators.WordFieldValidator,Sitecore.Sharedsource 
+----version----
+language: en
+version: 1
+revision: 74e05c26-45b7-4f3d-bf16-9bada64f7f9b
+
+----field----
+field: {DA43C533-CBAE-43D0-9019-65B1E346F984}
+name: Title
+key: title
+content-length: 19
+
+Word File Drop Area
+----field----
+field: {58014183-26FE-4568-B19F-C26745824C32}
+name: Description
+key: description
+content-length: 40
+
+Field contains at most one Word document
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 15
+
+20140804T100552
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+74e05c26-45b7-4f3d-bf16-9bada64f7f9b
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 34
+
+20140804T100721:635427436411460197
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

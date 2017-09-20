@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<xamlControls
+  xmlns:x="http://www.sitecore.net/xaml"
+  xmlns:ajax="http://www.sitecore.net/ajax"
+  xmlns:rest="http://www.sitecore.net/rest"
+  xmlns:r="http://www.sitecore.net/renderings"
+  xmlns:xmlcontrol="http://www.sitecore.net/xmlcontrols"
+  xmlns:p="http://schemas.sitecore.net/Visual-Studio-Intellisense"
+  xmlns:asp="http://www.sitecore.net/microsoft/webcontrols"
+  xmlns:html="http://www.sitecore.net/microsoft/htmlcontrols"
+  xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
+
+  <Sitecore.Sharedsource.Shell.Applications.ContentEditor.Editors.Disassembler x:inherits="Sitecore.Sharedsource.Shell.Applications.ContentEditor.Editors.Disassembler.DisassemblerPage,Sitecore.Sharedsource">
+    <Sitecore.Controls.HtmlPage runat="server">
+      <Stylesheet runat="server" Src="Folder.css" DeviceDependant="true" x:placeholder="Stylesheets"/>
+      <AjaxScriptManager runat="server"/>
+      <ContinuationManager runat="server" />
+      <Memo ID="Code" ReadOnly="true" Width="100%" Height="100%" GridPanel.Height="100%" Visible="false" runat="server" />
+    </Sitecore.Controls.HtmlPage>
+  </Sitecore.Sharedsource.Shell.Applications.ContentEditor.Editors.Disassembler>
+</xamlControls>

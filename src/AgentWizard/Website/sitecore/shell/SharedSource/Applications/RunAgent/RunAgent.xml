@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8" ?> 
+<control xmlns:def="Definition" xmlns="http://schemas.sitecore.net/Visual-Studio-Intellisense">
+  <RunAgent>
+    <WizardForm CodeBeside="Sitecore.Sharedsource.Shell.Applications.Administration.RunAgent.RunAgentForm,assembly">
+      <WizardFormFirstPage ID="FirstPage" Icon="People/32x32/alarmclock.png">
+        <Border Class="scWizardWelcomeTitle"><Literal ID="Welcome" Text="Welcome to the Run Agent Wizard."/></Border>
+        <Literal Text="This wizard helps you:"/>
+        <ul>
+          <li class="scWizardBullet"><Literal Text="Select a named agent defined in the web.config file."/></li>
+          <li class="scWizardBullet"><Literal Text="Run that agent."/></li>
+          <li class="scWizardBullet"><Literal Text="Monitor the processing of that agent."/></li>
+        </ul>
+      </WizardFormFirstPage>
+      
+      <WizardFormPage ID="SelectAgent" Header="Agent" Text="Select an agent. Click Next to run that agent." Icon="People/32x32/alarmclock.png">
+        <WizardFormIndent>
+          <Border Padding="0px 0px 4px 0px">
+            <Literal Text='Select a thread priority here:'/>
+          </Border>
+          <Border Padding="0px 0px 4px 0px">
+            <Combobox ID="Priority" Width="100%"/>
+          </Border>
+          <Border Padding="0px 0px 4px 0px">
+            <Literal Text='Select a named agent here:'/>
+          </Border>
+          <Border Padding="0px 0px 4px 0px">
+            <Combobox ID="SelectedAgent" Width="100%"/>
+          </Border>
+        </WizardFormIndent>
+      </WizardFormPage>
+
+      <WizardFormPage ID="Running" Header="Running Agent" Text="Please wait while running agent..." Icon="People/32x32/alarmclock.png">
+        <WizardFormIndent>
+          <GridPanel Width="100%">
+            <Space Height="64"/>
+            <ThemedImage Src="People/48x48/alarmclock.png" Width="48" Height="48" GridPanel.Align="center"/>
+            <Space Height="16"/>
+            <Border Align="center">
+              <ThemedImage Src="Images/progress.gif" Width="94" Height="17"/>
+            </Border>
+            <Space Height="16"/>
+            <Border ID="AgentText" Align="center" GridPanel.Align="center" GridPanel.Style="font-weight:bold">
+              <Literal ID="Status" Text="Processing..." />
+            </Border>
+            <Space Height="16"/>
+          </GridPanel>
+        </WizardFormIndent>
+      </WizardFormPage>
+      
+      <WizardFormLastPage ID="LastPage" Icon="People/32x32/alarmclock.png">
+        <WizardFormIndent>
+          <Border GridPanel.Style="padding:0px 0px 16px 0px; font-weight:bold">
+            <Literal Text="The wizard has completed. Click Finish to close the wizard."/>
+          </Border>
+          <Border GridPanel.Style="padding:0px 0px 16px 0px; font-weight:bold">
+            <Literal ID="Result" ReadOnly="true" Width="100%" Height="100%" GridPanel.Height="100%" Visible="true"/>
+          </Border>
+        </WizardFormIndent>
+      </WizardFormLastPage>
+    </WizardForm>
+  </RunAgent>
+</control>

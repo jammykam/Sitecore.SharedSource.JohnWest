@@ -1,0 +1,67 @@
+----item----
+version: 1
+id: {45123994-A12E-4C5B-8108-3B68457D2E7C}
+database: master
+path: /sitecore/system/Settings/Rules/Global Item Rules/Rules/Sample Rule
+parent: {4FC5A901-71A2-496C-8D8F-B5A4822E31C5}
+name: Sample Rule
+master: {00000000-0000-0000-0000-000000000000}
+template: {D9BDF22F-6E17-47F3-AB64-49C717BA92DA}
+templatekey: Rule
+
+----field----
+field: {908EF45D-4940-4B6A-857D-3739BA4ACF8F}
+name: Rule
+key: rule
+content-length: 384
+
+<ruleset>
+  <rule uid="{3B540AD6-4FB1-4893-ABDF-30127FF84F35}">
+    <conditions>
+      <condition id="{F241BAB6-5E5F-4AFB-8DEA-2696F7A95BF4}" uid="AC75178F33714EB9B76DD6DD9B85E305" />
+    </conditions>
+    <actions>
+      <action id="{961BA427-D510-4D29-9A9E-FC0164B00418}" uid="3C7AC4E4C5544180840B49163BF511F7" message="duplicate key" />
+    </actions>
+  </rule>
+</ruleset>
+----version----
+language: en
+version: 1
+revision: 3ce7dfa3-3dd8-4cb3-84b6-84c827f8f1a2
+
+----field----
+field: {45CF9130-802A-41BE-B3EB-C02F657DCC2E}
+name: Name
+key: name
+content-length: 11
+
+Sample Rule
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 15
+
+20120503T161200
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+3ce7dfa3-3dd8-4cb3-84b6-84c827f8f1a2
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 34
+
+20120507T085205:634719775258462905
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin
